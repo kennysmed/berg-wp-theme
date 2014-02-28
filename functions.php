@@ -46,7 +46,7 @@ if ( version_compare( $GLOBALS['wp_version'], '3.6', '<' ) ) {
 
 
 function berg_get_domain() {
-	return 'http://0.0.0.0:3000/';
+	return 'http://bergcloud.com/';
 }
 function berg_get_stylesheet_directory_uri() {
 	return berg_get_domain() . 'css';

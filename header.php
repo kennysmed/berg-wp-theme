@@ -43,7 +43,7 @@
         <li class=""><a href="<?php echo berg_get_domain(); ?>overview/">Overview</a></li>
         <li class=""><a href="<?php echo berg_get_domain(); ?>case-studies/">Case Studies</a></li>
         <li class=""><a href="<?php echo berg_get_domain(); ?>get-started/">Get Started</a></li>
-        <li><a href="<?php echo berg_get_domain(); ?>developers/platform/">Dev Center</a></li>
+        <li><a href="http://remote.bergcloud.com/developers/platform/">Dev Center</a></li>
 		<li class="active<?php if (is_front_page()) { ?> active-unlink<?php } ?>"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Blog</a></li>
         <li class=""><a href="<?php echo berg_get_domain(); ?>store/" class="modal-link"  data-toggle="modal" data-target="#shop-modal">Store</a></li> 
       </ul>
